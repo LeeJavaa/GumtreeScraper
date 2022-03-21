@@ -9,8 +9,8 @@ from twilio.rest import Client
 from bs4 import BeautifulSoup
 
 # Twilio Account
-account_sid = 'AC14ebd7b3f9e3ce99eafb3cb573d6219f'
-auth_token = '2f00faf95eae5f9eec6d7fde21d2df41'
+account_sid = 'AC6f294dbc8e874297d74f0f06ce835bfb'
+auth_token = '25b0e28574b7b2ba8b93d9cb85645e62'
 
 client = Client(account_sid, auth_token)
 
@@ -40,21 +40,21 @@ class MacBookSettings():
 # iPhone Settings
 class iPhoneSettings():
 
-    item_list = ['iphone 7', 'iphone 6s', 'iphone 5s', 'iphone se', 'iphone 8', 'iphone x', 'iphone xs', 'iphone 11' 'iphone 6splus', 'iphone 6s plus', 'iphone 6s+', 'iphone 6s +', 'iphone 6plus', 'iphone 6 plus', 'iphone 6+', 'iphone 6 +', 'iphone 7plus', 'iphone 7 plus', 'iphone 7+', 'iphone 7 +', 'iphone 8plus', 'iphone 8 plus', 'iphone 8+', 'iphone 8 +']
+    item_list = ['iphone 7', 'iphone 6s', 'iphone 8', 'iphone x', 'iphone xs', 'iphone 11' 'iphone 6splus', 'iphone 6s plus', 'iphone 6s+', 'iphone 6s +', 'iphone 6plus', 'iphone 6 plus', 'iphone 6+', 'iphone 6 +', 'iphone 7plus', 'iphone 7 plus', 'iphone 7+', 'iphone 7 +', 'iphone 8plus', 'iphone 8 plus', 'iphone 8+', 'iphone 8 +']
 
     price_target = {
-        'iphone 7': 3000,
-        'iphone 6s': 1900,
-        'iphone 5s': 600,
-        'iphone se': 1300,
-        'iphone 8': 4000,
-        'iphone x': 6800,
-        'iphone xs': 7000,
-        'iphone 11': 10000,
-        'iphone 6s plus': 2300,
-        'iphone 6 plus': 2000,
-        'iphone 7 plus': 4000,
-        'iphone 8 plus': 6000
+        'iphone 7': 2000,
+        'iphone 6s': 1000,
+        'iphone 8': 2500,
+        'iphone x': 5000,
+        'iphone xs': 5500,
+        'iphone 11': 9000,
+        'iphone 6s plus': 1500,
+        'iphone 6 plus': 1000,
+        'iphone 7 plus': 2000,
+        'iphone 8 plus': 4500,
+        'iphone 12': 10000,
+        'iphone 13': 11000,
     }
 
 # TV Settings
