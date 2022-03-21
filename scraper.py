@@ -40,7 +40,7 @@ class MacBookSettings():
 # iPhone Settings
 class iPhoneSettings():
 
-    item_list = ['iphone 7', 'iphone 6s', 'iphone 8', 'iphone x', 'iphone xs', 'iphone 11' 'iphone 6splus', 'iphone 6s plus', 'iphone 6s+', 'iphone 6s +', 'iphone 6plus', 'iphone 6 plus', 'iphone 6+', 'iphone 6 +', 'iphone 7plus', 'iphone 7 plus', 'iphone 7+', 'iphone 7 +', 'iphone 8plus', 'iphone 8 plus', 'iphone 8+', 'iphone 8 +']
+    item_list = ['iphone 7', 'iphone 6s', 'iphone 8', 'iphone x', 'iphone xs', 'iphone 11' 'iphone 6splus', 'iphone 6s plus', 'iphone 6s+', 'iphone 6s +', 'iphone 6plus', 'iphone 6 plus', 'iphone 6+', 'iphone 6 +', 'iphone 7plus', 'iphone 7 plus', 'iphone 7+', 'iphone 7 +', 'iphone 8plus', 'iphone 8 plus', 'iphone 8+', 'iphone 8 +', 'iphone 12', 'iphone 13']
 
     price_target = {
         'iphone 7': 2000,
